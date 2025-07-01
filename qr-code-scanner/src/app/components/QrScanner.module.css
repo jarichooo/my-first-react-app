@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reader {
+  margin-bottom: 10px;
+  height: 370px;
+  width: 500px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  gap: 10px;
+}
+
