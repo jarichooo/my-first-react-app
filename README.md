@@ -1,7 +1,8 @@
-### 📷 SARI-SCAN <br>
+# 📷 SARI-SCAN <br>
+
 SARI-SCAN is a full stack QR code scanner application built to efficiently scan and manage product data. It utilizes modern web technologies to provide a seamless scanning and database integration experience.
 
-🚀 Project Description
+## 🚀 Project Description
 SARI-SCAN is a QR code scanner app made with:
 
 Frontend: Vite + React
@@ -10,62 +11,61 @@ Backend: Express.js (Node.js)
 
 Database: MySQL (MariaDB)
 
-This app scans QR codes containing product information and saves them directly into the database. It is designed for local use and demonstrates a complete full stack workflow.
+This app scans QR codes containing product information and saves them directly into the database. It is designed for local use and demonstrates a complete full stack workflow. <br>
 
 💡 Features
 ✅ QR Code Scanning: Uses html5-qrcode to scan codes via the device camera.
 ✅ Data Parsing: Splits scanned data into product fields (ID, name, dates, manufacturer).
 ✅ Database Integration: Sends scanned data to a MySQL database through Express API routes.
-✅ CRUD Operations:
+✅ CRUD Operations:<br>
 
-Create: Insert scanned products.
+Create: Insert scanned products.<br>
 
-Read: Fetch product records.
+Read: Fetch product records.<br>
 
-Delete: Remove products by ID.
+Delete: Remove products by ID.<br>
 ✅ Clean UI: Minimal and functional interface for scanning and management.
 
-⚙️ Tech Stack
-Layer	Technology
-Frontend	Vite + React, html5-qrcode
-Backend	Node.js + Express.js
-Database	MySQL (MariaDB)
+⚙️ Tech Stack<br>
+Layer	Technology<br>
+Frontend	Vite + React, html5-qrcode<br>
+Backend	Node.js + Express.js<br>
+Database	MySQL (MariaDB)<br>
 
-🔧 How It Works
+🔧 How It Works<br>
 Run the backend server (Express.js) which connects to your MySQL (MariaDB) database.
 
-Start the frontend app built with Vite + React.
+Start the frontend app built with Vite + React.<br>
 
 Click SCAN to open the device camera and scan a QR code.
 
-The app parses the scanned text into:
+The app parses the scanned text into:<br>
 
 Product ID
 
-Product Name
+Product Name<br>
 
 Expiration Date
 
-Manufacture Date
+Manufacture Date<br>
 
 Manufacturer
 
-Sends data to backend API (/api/value) which inserts it into the database.
+Sends data to backend API (/api/value) which inserts it into the database.<br>
 
 You can also fetch all records or delete specific products via backend routes.
 
-📝 Example QR Code Format
+📝 Example QR Code Format<br>
 The QR code text is expected to have five lines separated by newline characters (\n) in this order:
 
-nginx
-Copy
 Edit
 productId
 productName
 expirationDate
 manufactureDate
 manufacturer
-🔒 Current Limitations
+
+## 🔒 Current Limitations
 Runs only on localhost for now.
 
 Requires manual database setup with the products table.
