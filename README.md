@@ -1,4 +1,4 @@
-📷 SARI-SCAN
+### 📷 SARI-SCAN <br>
 SARI-SCAN is a full stack QR code scanner application built to efficiently scan and manage product data. It utilizes modern web technologies to provide a seamless scanning and database integration experience.
 
 🚀 Project Description
