@@ -1,0 +1,63 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 110vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#scanner-container {
+  width: auto;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+#reader {
+  width: 100%;
+  max-width: 500px;
+  min-height: 380px; /* desktop default */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: black;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  #reader {
+    max-width: 100%;
+    min-height: 475px; /* mobile override */
+  }
+}
+
+.button-container {
+  margin-top: 1rem;
+  position: relative;
+}
+
+button {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 1rem;
+  margin: 10px auto;
+  display: block;
+  background-color: #393e9e;
+  border: none;
+  border-radius: 5px;
+}
+
+body, html{
+  background-color: #3d3939;
+  height: 100vh; /* full viewport height regardless of parent */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* prevents scrolling*/
+}
+
