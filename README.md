@@ -72,7 +72,7 @@ Requires manual database setup with the products table.
 
 Designed as a local project for learning and demonstration purposes.
 
-🎯 Purpose
+## 🎯 Purpose <br>
 This project was created as a first full stack application to:
 
 Learn and integrate frontend scanning with backend APIs.
@@ -83,7 +83,7 @@ Connect and perform CRUD operations with MySQL databases.
 
 Understand end-to-end data flow in a practical, real-life application.
 
-✨ Future Improvements
+## ✨ Future Improvements<br>
 🔹 Deploy to a public server (Render, Railway, or DigitalOcean).
 🔹 Add user authentication for secured access.
 🔹 Improve UI/UX with status dashboards.
